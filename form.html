@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Registrasi</title>
+</head>
+<body background="img/blue.jpg">
+    <form action="">
+    <h2 align="center">Registrasi Akun</h2>
+    <center>
+	<div id="kotak" style="background: skyblue; width: 600px; height: 570px; text-align: center; border: 1px solid;" >
+   
+    <table align="left">
+         <tr align="left">
+            <td><h3>Data Personal</h3> <hr> </td>
+        </tr>
+        <tr align="left">
+            <td> Nama Lengkap</td>
+            <td>: <input type="text" autofocus="true" required> </td>
+        </tr>
+        <tr align="left">
+            <td> Tempat Lahir</td>
+            <td>: <input type="text" required> </td>
+        </tr>
+        <tr align="left">
+            <td> Tanggal Lahir</td>
+            <td>: <input type="date" name="tanggal" required></td>
+        </tr>
+        <tr align="left">
+            <td> Agama</td>
+            <td>: <select name='agama'>
+                <option value='islam' selected='selected'>Islam</option>
+                <option value='kristen' >Kristen</option>
+                <option value='katholik'>Katholik</option>
+                <option value='hindu'>Hindu</option>
+                <option value='kristen'>Budha</option>
+              </select></td>
+        </tr>
+        <tr align="left">
+            <td> Umur</td>
+            <td>: <input type="number"> </td>
+        </tr>
+        <tr align="left">
+            <td> Jenis Kelamin</td>
+            <td>: <input type="radio" name="jenis_kelamin" required/> laki-laki </td>
+            <td> <input type="radio" name="jenis_kelamin" required/> perempuan </td>
+        </tr>
+        <tr align="left">
+            <td><h3>Informasi Kontak</h3> <hr> </td>
+        </tr>
+        <tr align="left">
+            <td> Email</td>
+            <td>: <input type="email" required> </td>
+        </tr>
+        <tr align="left">
+            <td> No. Telepon</td>
+            <td>: <input type="number" required> </td>
+        </tr>
+        <tr align="left">
+            <td> Alamat Lengkap</td>
+            <td>: <textarea name="" id="" cols="23" rows="5" required></textarea> </td>
+        </tr> 
+        <tr align="left">
+            <td> Asal Kota</td>
+            <td>: <select name="kota" id=""> 
+                <option value="jkt"> Jakarta</option>
+                <option value="boo"> Bogor</option>
+                <option value="dpk"> Depok</option>
+                <option value="tgr"> Tanggerang</option>
+                <option value="jkt"> Bekasi</option>
+            </select> </td>
+        </tr>
+        <tr align="left">
+            <td> Kemampuan Bahasa Pemprograman ? </td>
+            <td><input type="checkbox"> PHP</td>
+            <td><input type="checkbox">JAVA</td>  
+        </tr>
+        <tr align="left">
+            <td> </td>
+            <td><input type="checkbox">PYHTON</td>
+            <td><input type="checkbox">RUBY</td>
+        </tr>
+        <br> 
+        <tr align="center">
+            <td><input type="submit"></td>
+            <td><input type="reset"></td>
+        </tr>
+    
+    </table>
+    </div>
+    </center>
+    </form>
+</body>
+</html>
